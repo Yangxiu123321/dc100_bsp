@@ -42,7 +42,7 @@ git clone "ssh://${whoami}$@172.25.4.9:29418/Projects/Sophcam/dc100_bsp"
 mkdir SDK_CV184X && cd SDK_CV184X
 
 # 拉取项目代码
-git clone git@github.com:Yo-gurts/dc100_bsp.git
+git clone git@github.com:mayi631/dc100_bsp.git
 
 # 拉取 SDK 代码，一定要使用reproduce切换到特定版本的SDK，否则可能出现patch冲突！
 ./dc100_bsp/scripts/repos.sh --gitclone ./dc100_bsp/manifest/sdk-github-cv184x.xml --reproduce ./dc100_bsp/manifest/git_version_github_cv184x_2025-12-19.txt
